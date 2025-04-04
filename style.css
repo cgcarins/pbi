@@ -7,8 +7,8 @@
 
 /* Body ocupa toda a altura da tela */
 html, body {
-  height: 100%;
-  width: 100%;
+  height: 90%;
+  width: 90%;
   background-color: #000;
   overflow: hidden;
 }
