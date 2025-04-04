@@ -1,0 +1,21 @@
+/* Remove margens e paddings padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body ocupa toda a altura da tela */
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  overflow: hidden;
+}
+
+/* iFrame ocupa toda a tela */
+#iframe, iframe {
+  width: 100vw;
+  height: 100vh;
+  border: none;
+}
